@@ -1,0 +1,21 @@
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+.pink {
+  background-color: pink;
+}
+
+#two {
+  color: blue;
+  font-size: 32px;
+}
+
+.big {
+  font-size: 24px;
+}
+
+#four {
+  background-color: lightgreen;
+  font-weight: bold;
+}
