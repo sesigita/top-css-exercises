@@ -5,13 +5,13 @@ body {
 }
 
 .header {
-  height: 72px;
+  /* height: 72px; */
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  /* height: 72px; */
   background: #eee;
   color: darkmagenta;
 }
@@ -26,4 +26,62 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  padding: 32px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card {
+  width: 300px;
+  padding: 1rem;
 }
